@@ -1,0 +1,11 @@
+CREATE DATABASE formulario_db;
+USE formulario_db;
+
+CREATE TABLE alunos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    data_nascimento DATE,
+    curso VARCHAR(100),
+    turno VARCHAR(50),
+    ano INT
+);
